@@ -1,0 +1,40 @@
+.landing-page{
+  background: linear-gradient(135deg, #0f0f0f, #39363c, #0f172a);
+  background-size: 400% 400%;
+  animation: shineGradient 175s ease infinite;
+  /* background: url('../../assets/bg.jpg'); */
+    min-height: 100vh;
+    max-width: 1920px;
+    width: 100%;
+    padding: 0 120px;
+}
+.hero-content h1{
+    font-size: 56px;
+    color: #fff;
+    text-align: center;
+}
+.hero-content{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.start-btn{
+    width: 240px;
+    height: 72px;
+    font-size: 28px;
+  background: linear-gradient(135deg, #16e293 0%, #059669 100%);  color: white;
+    color: #fff;
+    border: none;
+    border-radius: 16px;
+}
+.hero-scripts{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

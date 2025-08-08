@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set up body styles */
+body {
+    font-family: "Instrument Sans", sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* App wrapper */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
