@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Eye, EyeOff, DollarSign } from 'lucide-react';
-import './Auth.css';
+import './auth.css';
 
 const Register = ({ onRegister }) => {
   const [formData, setFormData] = useState({
