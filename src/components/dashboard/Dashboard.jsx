@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
 import { Plus, TrendingUp, TrendingDown, DollarSign, Calendar } from 'lucide-react';
-import './Dashboard.css';
+import './dashboard.css';
 
 const Dashboard = ({ currentUser }) => {
   const [transactions, setTransactions] = useState([]);
